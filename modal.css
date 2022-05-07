@@ -1,0 +1,40 @@
+.modal-overlay{
+   position: fixed;
+   top: 0;
+   right: 0;
+   left:0;
+   bottom:0; 
+   background: rgba(0, 0, 0, .3);
+}
+
+.modal-window{
+    width:600px;
+    border-radius:5px;
+    background:white;
+    margin: 100px auto;
+
+}
+
+.modal-header{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+
+.modal-title{
+    font-size: 1.5rem;
+}
+
+.modal-close{
+    cursor:pointer;
+}
+
+.modal-body{
+    padding: 10px;
+}
+
+.modal-footer{
+    padding: 5px 10px;
+    border-top: 1px solid #eee;
+}
